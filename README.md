@@ -10,5 +10,3 @@ A simple [Backbone.Marionette](http://marionettejs.com) starter project.
 - Bootstraps unit testing
 
 ## Directory Structure
-
-- TODO

@@ -11,45 +11,12 @@ App.module(
     List.Controller = {
 
       /**
-       * Return this controllers event prefix. Events associated with this
-       * controller will be prefixed by this value.
+       * List records.
        *
-       * @return  {String}  Event prefix.
+       * @param  {Object}  options  Options hash.
        */
-      channelPrefix: function () {
-        return 'sc1:';
-      },
-
-      /**
-      * List records.
-      *
-      * @param  {Object}  options  Options hash.
-      */
       listRecords: function (options) {
         return undefined;
-      }
-
-      /**
-       * Get the list layout view.
-       *
-       * @param   {Object}  options  Options hash.
-       * @return  {Object}  List layout view.
-       */
-      _getLayout: function (options) {
-        return undefined;
-      },
-
-      /**
-       * Get the sample component 1 items collection.
-       *
-       * @param   {Object}  options  Options hash.
-       * @return  {Object}  Items collection.
-       */
-      _getItems: function (options) {
-        return App.entityChannel.reqres.request(
-          'entities:sample-entities',
-          options
-        );
       }
 
     };

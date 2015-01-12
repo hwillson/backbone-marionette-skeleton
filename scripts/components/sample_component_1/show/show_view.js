@@ -1,11 +1,17 @@
-/*global App, window, localStorage, Autolinker*/
+/*global App*/
 'use strict';
 
 App.module(
   'SampleComponent1App.Show',
   function (Show, App, Backbone, Marionette, $, _) {
 
-    // TODO
+    /**
+     * Define the item view.
+     */
+    Show.Item = Marionette.ItemView.extend({
+      className: 'item',
+      template: 'sample_component_1/show/templates/overview'
+    });
 
   }
 );
