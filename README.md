@@ -14,30 +14,30 @@ A simple [Backbone.Marionette](http://marionettejs.com) starter project.
 ```
 /scripts (All application JavaScript files)
   /common (Common/shared files)
-    behaviors (Marionette beavhiors)
-    controllers (Common base controllers)
-    templates (Common JST templates)
-    utility (Common utility objects/functions)
-    validation (Common validation helpers)
-    views (Common view definition files)
-      helpers (Common view helpers)
-  components (Main application components)
-    sample_component_1
-      common (views and templates shared within the component)
-        templates
-      edit (edit controllers/views/templates)
-      list (list controllers/views/templates)
-        templates
-      new (new controllers/views/templates)
-      show (show controllers/views/templates)
-        templates
-  config (Application config files)
-    backbone (Backbone library overrides)
-    marionette (Marionette library overrides, core additions, etc.)
-  entities (Application models/collections)
-  vendor (Vendor libraries)
-styles (Stylus (CSS) files)
-test (Unit tests and helpers)
+    /behaviors (Marionette beavhiors)
+    /controllers (Common base controllers)
+    /templates (Common JST templates)
+    /utility (Common utility objects/functions)
+    /validation (Common validation helpers)
+    /views (Common view definition files)
+      /helpers (Common view helpers)
+  /components (Main application components)
+    /sample_component_1
+      /common (views and templates shared within the component)
+        /templates
+      /edit (edit controllers/views/templates)
+      /list (list controllers/views/templates)
+        /templates
+      /new (new controllers/views/templates)
+      /show (show controllers/views/templates)
+        /templates
+  /config (Application config files)
+    /backbone (Backbone library overrides)
+    /marionette (Marionette library overrides, core additions, etc.)
+  /entities (Application models/collections)
+  /vendor (Vendor libraries)
+/styles (Stylus (CSS) files)
+/test (Unit tests and helpers)
 ```
 
 ## TODO
